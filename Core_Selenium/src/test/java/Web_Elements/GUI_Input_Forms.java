@@ -66,7 +66,7 @@ public class  GUI_Input_Forms{
 		
 		// Select by value
 		
-		option.selectByValue("china");
+		option.selectByValue("uk");
 		
 		Thread.sleep(1000);
 		
@@ -79,7 +79,7 @@ public class  GUI_Input_Forms{
 			
 			System.out.println(value);
 			
-			if(value.equals("India"))
+			if(value.equals("China"))
 			{
 				op.click();
 				break;
@@ -94,9 +94,9 @@ public class  GUI_Input_Forms{
 		
 		
 		// date picker
-		String day = "15";
-		String month = "January";
-		String year = "2028";
+//		String day = "15";
+//		String month = "January";
+//		String year = "2028";
 		
 		
 		//driver.findElement(By.id("datepicker")).sendKeys("15-08-2002");
